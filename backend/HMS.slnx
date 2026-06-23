@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/HMS.Modules.Appointments/">
+    <Project Path="HMS.Modules.Appointments/HMS.Modules.Appointments.Api/HMS.Modules.Appointments.Api.csproj" />
+    <Project Path="HMS.Modules.Appointments/HMS.Modules.Appointments.Application/HMS.Modules.Appointments.Application.csproj" />
+    <Project Path="HMS.Modules.Appointments/HMS.Modules.Appointments.Domain/HMS.Modules.Appointments.Domain.csproj" />
+    <Project Path="HMS.Modules.Appointments/HMS.Modules.Appointments.Infrastructure/HMS.Modules.Appointments.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/HMS.Modules.Patients/">
+    <Project Path="HMS.Modules.Patients/HMS.Modules.Patients.Api/HMS.Modules.Patients.Api.csproj" />
+    <Project Path="HMS.Modules.Patients/HMS.Modules.Patients.Application/HMS.Modules.Patients.Application.csproj" />
+    <Project Path="HMS.Modules.Patients/HMS.Modules.Patients.Domain/HMS.Modules.Patients.Domain.csproj" />
+    <Project Path="HMS.Modules.Patients/HMS.Modules.Patients.Infrastructure/HMS.Modules.Patients.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/HMS.Modules.Tenants/">
+    <Project Path="HMS.Modules.Tenants/HMS.Modules.Tenants.Api/HMS.Modules.Tenants.Api.csproj" />
+    <Project Path="HMS.Modules.Tenants/HMS.Modules.Tenants.Application/HMS.Modules.Tenants.Application.csproj" />
+    <Project Path="HMS.Modules.Tenants/HMS.Modules.Tenants.Domain/HMS.Modules.Tenants.Domain.csproj" />
+    <Project Path="HMS.Modules.Tenants/HMS.Modules.Tenants.Infrastructure/HMS.Modules.Tenants.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="HMS.Api/HMS.Api.csproj" />
+  <Project Path="HMS.Shared/HMS.Shared.csproj" />
+  <Project Path="HMS.Tests.Integration/HMS.Tests.Integration.csproj" />
+  <Project Path="HMS.Tests.Unit/HMS.Tests.Unit.csproj" />
+</Solution>
