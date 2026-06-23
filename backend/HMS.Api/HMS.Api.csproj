@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.19.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HMS.Modules.Tenants\HMS.Modules.Tenants.Api\HMS.Modules.Tenants.Api.csproj" />
+    <ProjectReference Include="..\HMS.Modules.Tenants\HMS.Modules.Tenants.Infrastructure\HMS.Modules.Tenants.Infrastructure.csproj" />
+    <ProjectReference Include="..\HMS.Modules.Patients\HMS.Modules.Patients.Api\HMS.Modules.Patients.Api.csproj" />
+    <ProjectReference Include="..\HMS.Modules.Patients\HMS.Modules.Patients.Infrastructure\HMS.Modules.Patients.Infrastructure.csproj" />
+    <ProjectReference Include="..\HMS.Modules.Appointments\HMS.Modules.Appointments.Api\HMS.Modules.Appointments.Api.csproj" />
+    <ProjectReference Include="..\HMS.Modules.Appointments\HMS.Modules.Appointments.Infrastructure\HMS.Modules.Appointments.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
